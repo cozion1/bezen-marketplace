@@ -1,0 +1,7 @@
+{
+  "name": "bezen-mcp",
+  "description": "Batch reply reading over MCP: send up to 25 prospect replies in one call and get the BEZEN reading for each — what the person is defending, what not to do, and send auto/human/none. Runs on a cheap model so an agent does not burn tokens per reply. Requires a personal key.",
+  "version": "1.0.0",
+  "author": { "name": "Cozio Cohen" },
+  "keywords": ["hebrew", "mcp", "sales", "leads", "batch"]
+}

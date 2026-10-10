@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "bezen": {
+      "type": "http",
+      "url": "https://bezen-arena.onrender.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${BEZEN_KEY}"
+      }
+    }
+  }
+}
