@@ -1,0 +1,9 @@
+{
+  "name": "bezen-stories",
+  "description": "Write a Hebrew interactive story built around one human pattern, or score a story another model wrote. Rebuilds a familiar story around a single emotional pattern in present-day Israeli reality, with reader choices and a twist that re-reads everything before it. Includes a 4-axis rubric for comparing models.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Cozio Cohen"
+  },
+  "keywords": ["hebrew", "storytelling", "emotional-intelligence", "evaluation"]
+}

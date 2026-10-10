@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "bezen",
+  "description": "BEZEN — an authentic Hebrew emotional-intelligence layer for AI agents. Tools that make a model write and read Hebrew the way Israelis actually speak, instead of translated American English.",
+  "owner": {
+    "name": "Cozio Cohen"
+  },
+  "plugins": [
+    {
+      "name": "bezen-stories",
+      "displayName": "BEZEN Stories",
+      "description": "Write a Hebrew interactive story built around one human pattern, or score a story another model wrote. Rebuilds a familiar story (Little Red Riding Hood, Goldilocks) around a single emotional pattern in present-day Israeli reality, with reader choices and a twist that re-reads everything before it. Includes a 4-axis rubric for comparing models on Israeli concreteness, emotional restraint, twist strength, and who owns the insight — the text or the reader.",
+      "author": {
+        "name": "Cozio Cohen"
+      },
+      "category": "productivity",
+      "keywords": ["hebrew", "storytelling", "creative-writing", "emotional-intelligence", "evaluation", "israel"],
+      "source": "./plugins/bezen-stories"
+    }
+  ]
+}
