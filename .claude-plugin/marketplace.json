@@ -8,7 +8,6 @@
   "plugins": [
     {
       "name": "bezen-stories",
-      "displayName": "BEZEN Stories",
       "description": "Write a Hebrew interactive story built around one human pattern, or score a story another model wrote. Rebuilds a familiar story (Little Red Riding Hood, Goldilocks) around a single emotional pattern in present-day Israeli reality, with reader choices and a twist that re-reads everything before it. Includes a 4-axis rubric for comparing models on Israeli concreteness, emotional restraint, twist strength, and who owns the insight — the text or the reader.",
       "author": {
         "name": "Cozio Cohen"
@@ -19,7 +18,6 @@
     },
     {
       "name": "bezen-songs",
-      "displayName": "BEZEN Songs",
       "description": "Read raw Hebrew song lyrics a person wrote and prepare them for composing — without rewriting them. Returns the emotional pattern, the three strongest lines quoted word for word, what to cut, a chorus built only from the writer's own lines, two sticky hooks, chords per section, and a ready Suno prompt. Ships a verifier script that rejects any quote, fix or hook that is not the writer's own.",
       "author": {
         "name": "Cozio Cohen"
