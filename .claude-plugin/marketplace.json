@@ -13,7 +13,14 @@
         "name": "Cozio Cohen"
       },
       "category": "productivity",
-      "keywords": ["hebrew", "storytelling", "creative-writing", "emotional-intelligence", "evaluation", "israel"],
+      "keywords": [
+        "hebrew",
+        "storytelling",
+        "creative-writing",
+        "emotional-intelligence",
+        "evaluation",
+        "israel"
+      ],
       "source": "./plugins/bezen-stories"
     },
     {
@@ -23,8 +30,46 @@
         "name": "Cozio Cohen"
       },
       "category": "productivity",
-      "keywords": ["hebrew", "songwriting", "lyrics", "music", "suno"],
+      "keywords": [
+        "hebrew",
+        "songwriting",
+        "lyrics",
+        "music",
+        "suno"
+      ],
       "source": "./plugins/bezen-songs"
+    },
+    {
+      "name": "bezen-replies",
+      "description": "Read a prospect reply to a sales email before sorting it into yes/no/question. Identifies what the person is defending, what must not be done next, whether to send automatically or route to a human, and writes the next message in Hebrew. Returns JSON, so it drops into a CRM or mail pipeline.",
+      "author": {
+        "name": "Cozio Cohen"
+      },
+      "category": "productivity",
+      "keywords": [
+        "hebrew",
+        "sales",
+        "leads",
+        "crm",
+        "email"
+      ],
+      "source": "./plugins/bezen-replies"
+    },
+    {
+      "name": "bezen-voice",
+      "description": "Add the BEZEN layer to a voice agent that already exists - a phone bot, an IVR, a Vapi/Retell/ElevenLabs agent - so it reads the caller's state and not only the caller's words. Takes the agent's current system prompt, returns it with the layer attached and five before/after test turns.",
+      "author": {
+        "name": "Cozio Cohen"
+      },
+      "category": "productivity",
+      "keywords": [
+        "hebrew",
+        "voice",
+        "agent",
+        "ivr",
+        "telephony"
+      ],
+      "source": "./plugins/bezen-voice"
     }
   ]
 }

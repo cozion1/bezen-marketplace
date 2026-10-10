@@ -1,0 +1,7 @@
+{
+  "name": "bezen-voice",
+  "description": "Add the BEZEN layer to a voice agent that already exists — a phone bot, an IVR, a Vapi/Retell/ElevenLabs agent — so it reads the caller's state and not only the caller's words. Takes the agent's current system prompt, returns it with the layer attached and five before/after test turns.",
+  "version": "1.0.0",
+  "author": { "name": "Cozio Cohen" },
+  "keywords": ["hebrew", "voice", "agent", "ivr", "telephony"]
+}
