@@ -86,6 +86,22 @@
         "batch"
       ],
       "source": "./plugins/bezen-mcp"
+    },
+    {
+      "name": "bezen-ladder",
+      "description": "Take one harsh sentence and return what stands behind it - thinking pattern, feeling, body, behaviour, limiting belief - plus a four-rung ladder from that sentence to its balanced version, and the useful trait it leads to. Ships a verifier that rejects a ladder whose grievance quietly vanished on the way up.",
+      "author": {
+        "name": "Cozio Cohen"
+      },
+      "category": "productivity",
+      "keywords": [
+        "hebrew",
+        "education",
+        "conflict",
+        "sel",
+        "alignment"
+      ],
+      "source": "./plugins/bezen-ladder"
     }
   ]
 }

@@ -19,6 +19,7 @@ BEZEN is not a model. It is the decision layer above one.
 |---|---|
 | **bezen-stories** | Writes a Hebrew interactive story built around one human pattern, and scores stories other models wrote on a 4-axis rubric. |
 | **bezen-songs** | Reads the lyrics you wrote and prepares them for composing — without rewriting them. Ships a verifier that rejects any quote, fix or hook that is not yours. |
+| **bezen-ladder** | One harsh sentence in: what stands behind it, and a four-rung ladder to its balanced version. The verifier rejects a ladder that lost the grievance. |
 | **bezen-replies** | Reads a prospect's reply to a sales email: what they are defending, what not to do, send automatically or route to a human, and the next message. Returns JSON for a CRM or mail pipeline. |
 | **bezen-mcp** | Batch reply reading over MCP — up to 25 replies per call on a cheap model. Requires a personal key. |
 | **bezen-voice** | Attaches the BEZEN layer to a voice agent you already have, so it reads the caller's state and not only their words. Returns your prompt with the layer, plus five before/after test turns. |
