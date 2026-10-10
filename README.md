@@ -18,6 +18,7 @@ BEZEN is not a model. It is the decision layer above one.
 | Plugin | What it does |
 |---|---|
 | **bezen-stories** | Writes a Hebrew interactive story built around one human pattern, and scores stories other models wrote on a 4-axis rubric. |
+| **bezen-songs** | Reads the lyrics you wrote and prepares them for composing — without rewriting them. Ships a verifier that rejects any quote, fix or hook that is not yours. |
 
 ---
 
