@@ -1,9 +1,15 @@
 {
   "name": "bezen-songs",
-  "description": "Read raw Hebrew song lyrics a person wrote and prepare them for composing — without rewriting them. Returns the emotional pattern, the three strongest lines quoted word for word, what to cut, a chorus built only from the writer's own lines, two sticky hooks, chords per section, and a ready Suno prompt. Ships a verifier script that rejects any quote, fix or hook that is not the writer's own.",
-  "version": "1.0.0",
+  "description": "Two skills for a song. For someone who already wrote lines: read them and prepare them for composing without rewriting them. For someone who has something to say and no words: six questions, one at a time, whose answers become the lyrics. Both ship a verifier that rejects any word the writer did not say.",
+  "version": "1.1.0",
   "author": {
     "name": "Cozio Cohen"
   },
-  "keywords": ["hebrew", "songwriting", "lyrics", "music", "suno"]
+  "keywords": [
+    "hebrew",
+    "songwriting",
+    "lyrics",
+    "music",
+    "suno"
+  ]
 }
