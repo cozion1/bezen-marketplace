@@ -1,7 +1,7 @@
 {
   "name": "bezen-replies",
   "description": "Read a prospect reply to a sales email before sorting it into yes/no/question. Identifies what the person is defending, what must not be done next, whether to send automatically or route to a human, and writes the next message in Hebrew. Returns JSON, so it drops into a CRM or mail pipeline.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": { "name": "Cozio Cohen" },
   "keywords": ["hebrew", "sales", "leads", "crm", "email"]
 }
