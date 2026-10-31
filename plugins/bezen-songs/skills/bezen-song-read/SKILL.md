@@ -1,6 +1,6 @@
 ---
 name: bezen-song-read
-description: Read raw song lyrics a person wrote and prepare them for composing — without rewriting them. Returns the emotional pattern, the three strongest lines quoted word for word, what to cut, a chorus built only from the writer's own lines, two sticky hooks, chords per section, and a Shabazi-method performance scroll for Suno: the writer's lines vowelized with stress, pause and breath under each line, the voice leading and the instruments humming the chorus after it, in a default structure with two alternatives to choose from. Use when someone shares lyrics they wrote and wants feedback, help with a chorus, a melody direction, chords, or a Suno prompt — and whenever the request sounds like "improve my song", which is exactly what this skill refuses to do.
+description: Read raw song lyrics a person wrote and prepare them for composing — without rewriting them. Returns the emotional pattern, the three strongest lines quoted word for word, what to cut, a chorus built only from the writer's own lines, two sticky hooks, chords per section, and a BEZEN-method performance scroll for Suno (built on Rabbi Shalom Shabazi's tradition): the writer's lines vowelized with stress, pause and breath under each line, the voice leading and the instruments humming the chorus after it, in a default structure with two alternatives to choose from. Use when someone shares lyrics they wrote and wants feedback, help with a chorus, a melody direction, chords, or a Suno prompt — and whenever the request sounds like "improve my song", which is exactly what this skill refuses to do.
 ---
 
 # קריאת שיר — שכבת BEZEN
@@ -73,12 +73,14 @@ description: Read raw song lyrics a person wrote and prepare them for composing 
 
 אם נשארו פחות משני hooks תקינים — סבב נוסף, hooks בלבד, מהבתים ומהשורות הצדדיות.
 
-## מגילת ביצוע לסונו (שיטת שבזי)
+## מגילת ביצוע לסונו (שיטת BEZEN)
+
+שיטת BEZEN מחברת שני דברים: את הכוונה הרגשית של כל חלק בשיר (שכבת BEZEN), ואת מסורת ההלחנה של רבי שלום שבזי (טעמים, אתנחתא וסוף פסוק, נשיד-שירה-הלל, הקול שמוביל).
 
 שורת סגנון קצרה לא מספיקה. השיר נשבר בדיוק במקומות שהיא לא רואה: הברה שהוטעמה לא נכון, נשימה במקום הלא נכון, צליל ארוך על עיצור. לכן הבלוק לסונו הוא **מגילה**: השורות שלו, מנוקדות, ומתחת לכל שורה הוראה לזמר.
 
 **המבנה: ברירת מחדל ושתי חלופות.** בונים קודם לפי ברירת המחדל, ובסוף שואלים את הכותב אם לנסות חלופה.
-- **שבזי (ברירת מחדל):** נשיד (פתיחה חופשית בלי מקצב, הקול כמעט לבד) ← בית שקט ← פזמון ← הכלים מזמזמים את הפזמון ← בית (כאן נכנס הקצב) ← פזמון ← הכלים מזמזמים ← הלל (סיום רגוע, נחיתה ארוכה).
+- **פתיחה חופשית, נשיד (ברירת מחדל):** נשיד (פתיחה חופשית בלי מקצב, הקול כמעט לבד) ← בית שקט ← פזמון ← הכלים מזמזמים את הפזמון ← בית (כאן נכנס הקצב) ← פזמון ← הכלים מזמזמים ← הלל (סיום רגוע, נחיתה ארוכה).
 - **פותחים בפזמון:** פזמון גבוה ← בית שקט ← הכלים מזמזמים ← פזמון ← בית ← פזמון. המילים הראשונות בשיר הן ה-hook.
 - **פותחים בבית גבוה:** בית גבוה ← פזמון נמוך, כמו סוד ← הכלים מזמזמים ← בית שקט ← פזמון.
 
@@ -112,8 +114,8 @@ description: Read raw song lyrics a person wrote and prepare them for composing 
 
 ## הפלט לכותב
 
-מסמך קריא בעברית, לא JSON. לפי הסדר: הדפוס, המסלול, שלוש השורות החזקות עם הנימוק, מה להוריד, הפזמון, התיקונים, המוזיקה, האקורדים לכל חלק, שתי אפשרויות הפזמון שיידבק, ולבסוף **מגילת הביצוע לסונו** לפי המבנה של שבזי: שורת הסגנון, והבלוק המלא לשדה Lyrics.
+מסמך קריא בעברית, לא JSON. לפי הסדר: הדפוס, המסלול, שלוש השורות החזקות עם הנימוק, מה להוריד, הפזמון, התיקונים, המוזיקה, האקורדים לכל חלק, שתי אפשרויות הפזמון שיידבק, ולבסוף **מגילת הביצוע לסונו** בשיטת BEZEN: שורת הסגנון, והבלוק המלא לשדה Lyrics.
 
-**ובסוף, שאלה אחת:** "המגילה בנויה לפי שבזי. לנסות לפתוח בפזמון, או בבית גבוה? ולשיר בקול אישה או גבר?" אם הכותב בוחר חלופה, בונים מחדש רק את המגילה, בלי לקרוא את השיר שוב.
+**ובסוף, שאלה אחת:** "המגילה בנויה בשיטת BEZEN, עם פתיחה חופשית. לנסות לפתוח בפזמון גבוה, או בבית גבוה? לשיר בקול אישה או גבר? ולהשוואה, להכין גם גרסה בלי השיטה?" אם הכותב בוחר חלופה, בונים מחדש רק את המגילה, בלי לקרוא את השיר שוב.
 
 פתח במשפט אחד שאומר מה השיר עושה. אל תפתח במחמאה.
