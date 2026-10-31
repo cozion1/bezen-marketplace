@@ -1,6 +1,6 @@
 ---
 name: bezen-song-read
-description: Read raw song lyrics a person wrote and prepare them for composing — without rewriting them. Returns the emotional pattern, the three strongest lines quoted word for word, what to cut, a chorus built only from the writer's own lines, two sticky hooks, chords per section, and a ready Suno prompt. Use when someone shares lyrics they wrote and wants feedback, help with a chorus, a melody direction, chords, or a Suno prompt — and whenever the request sounds like "improve my song", which is exactly what this skill refuses to do.
+description: Read raw song lyrics a person wrote and prepare them for composing — without rewriting them. Returns the emotional pattern, the three strongest lines quoted word for word, what to cut, a chorus built only from the writer's own lines, two sticky hooks, chords per section, and a Shabazi-method performance scroll for Suno: the writer's lines vowelized with stress, pause and breath under each line, the voice leading and the instruments humming the chorus after it, in a default structure with two alternatives to choose from. Use when someone shares lyrics they wrote and wants feedback, help with a chorus, a melody direction, chords, or a Suno prompt — and whenever the request sounds like "improve my song", which is exactly what this skill refuses to do.
 ---
 
 # קריאת שיר — שכבת BEZEN
@@ -73,8 +73,47 @@ description: Read raw song lyrics a person wrote and prepare them for composing 
 
 אם נשארו פחות משני hooks תקינים — סבב נוסף, hooks בלבד, מהבתים ומהשורות הצדדיות.
 
+## מגילת ביצוע לסונו (שיטת שבזי)
+
+שורת סגנון קצרה לא מספיקה. השיר נשבר בדיוק במקומות שהיא לא רואה: הברה שהוטעמה לא נכון, נשימה במקום הלא נכון, צליל ארוך על עיצור. לכן הבלוק לסונו הוא **מגילה**: השורות שלו, מנוקדות, ומתחת לכל שורה הוראה לזמר.
+
+**המבנה: ברירת מחדל ושתי חלופות.** בונים קודם לפי ברירת המחדל, ובסוף שואלים את הכותב אם לנסות חלופה.
+- **שבזי (ברירת מחדל):** נשיד (פתיחה חופשית בלי מקצב, הקול כמעט לבד) ← בית שקט ← פזמון ← הכלים מזמזמים את הפזמון ← בית (כאן נכנס הקצב) ← פזמון ← הכלים מזמזמים ← הלל (סיום רגוע, נחיתה ארוכה).
+- **פותחים בפזמון:** פזמון גבוה ← בית שקט ← הכלים מזמזמים ← פזמון ← בית ← פזמון. המילים הראשונות בשיר הן ה-hook.
+- **פותחים בבית גבוה:** בית גבוה ← פזמון נמוך, כמו סוד ← הכלים מזמזמים ← בית שקט ← פזמון.
+
+**"גבוה" פירושו מנגינה גבוהה יותר, לעולם לא עוצמה.** הוראה כמו "הפזמון עולה ונפתח" יוצאת בכלי ה-AI צעקה. בכל המבנים הקול מלא ויציב: never belting, no shouting, no choir.
+
+**הקול מוביל.** הכלים מעטים ושקטים ברקע: גיטרה חשמלית נקייה בפריטה ונגיעות אלקטרוניות רכות, בלי דרבוקה ובלי עוד. הם מככבים רק בהפסקה שאחרי הפזמון, ושם מנגנים את מנגינת הפזמון בלי מילים, כדי שתיחרט באוזן. סונו מכיר את זה רק בצורה הזו, תגית מוכרת ואחריה שורה שאומרת מה מנגן:
+```
+[Guitar Solo]
+[Instrumental: no vocals, 8 bars, the clean guitar plays the chorus melody, soft synth under it]
+```
+תגית מומצאת ("[Verse 1 continued]", "[Instrumental Chorus]") סונו מתעלם ממנה.
+
+**הקול:** אישה או גבר, לפי מה שהכותב רוצה. "a clear, warm, full and steady female voice", או "a deep, warm, resonant male voice, always truly sung with melody, never spoken or recited". ובשני המקרים: like a trained cantillation reader who fills the room without effort; not breathy, not whispered.
+
+**השורות:** כל שורה שרה היא שורה שלו, או חלק משורה שלו. מותר לפצל, לחזור ולבחור לאן היא נכנסת. **ניקוד מלא**, בלי לשנות אף אות. אם הכותב כבר ניקד, משאירים את הניקוד שלו.
+
+**ההוראה מתחת לכל שורה** (באנגלית, בסוגריים מרובעים, סונו לא שר אותה):
+- **stress:** כל השורה בכתב לטיני, וההברה המוטעמת באותיות גדולות (ka-TAV-ti). זהירות במלעיל (YO-fi, BA-yit, RE-gel), שם נופלת רוב הטעויות.
+- **משרתים, אתנחתא, סוף פסוק:** השורה זורמת בצעדים קטנים, ואז "pause on a tense note at ..." (אתנחתא, כמו פסיק או שאלה), או "land home, long note on ..." (סוף פסוק). סוף בית או פזמון תמיד נוחת הביתה.
+- **נשימה:** "Breath after".
+- **שווא נע קצרצר**, לעולם לא מאריכים אותו.
+- **החזקה** רק על תנועה או על ל, מ, נ. על ק, ת, ט, ד, ב, פ, כ, ג לא מחזיקים.
+- **קישוט** אחד או שניים בכל השיר, לא יותר: "a slow wavering chain of three small turns, like hesitation" (שלשלת), או "a soft rising ornament, left open" לפני הפזמון.
+- כוונה רגשית קצרה כשצריך: "a sigh, not a cry".
+
+**פסקת הפתיחה של הבלוק** (באנגלית, בראש שדה ה-Lyrics): הקול, הכלים, ההפסקה הכלית אחרי כל פזמון, הפתיחה (חופשית או בקצב), BPM, ואז: "The Hebrew lyrics are fully vowelized: sing every vowel exactly as written, modern Israeli pronunciation. Capital letters mark the stressed syllable; schwa syllables are very short; hold long notes only on vowels or on L, M, N. Do not sing the bracketed text."
+
+**שורת סגנון קצרה** לשדה Style of Music, עד 200 תווים, באותה רוח.
+
+לפני שמראים: עוברים על הבלוק ומוודאים שאחרי כל פזמון יש הפסקה כלית בצורה שלמעלה, ושכל שורה עברית שרה נמצאת במילים שלו (אפשר להעביר אותן כ-hooks ב-`draft.json` ל-verify.py).
+
 ## הפלט לכותב
 
-מסמך קריא בעברית, לא JSON. לפי הסדר: הדפוס, המסלול, שלוש השורות החזקות עם הנימוק, מה להוריד, הפזמון, התיקונים, המוזיקה, האקורדים לכל חלק, שתי אפשרויות הפזמון שיידבק, ולבסוף פרומפט מוכן לסונו — `style` באנגלית עד 200 תווים (ז'אנר, מצב רוח, כלים, קצב, סוג קול, בלי שמות אמנים), ו-`lyrics` עם תגיות `[Verse]`, `[Chorus]`, `[Bridge]`, `[Outro]`.
+מסמך קריא בעברית, לא JSON. לפי הסדר: הדפוס, המסלול, שלוש השורות החזקות עם הנימוק, מה להוריד, הפזמון, התיקונים, המוזיקה, האקורדים לכל חלק, שתי אפשרויות הפזמון שיידבק, ולבסוף **מגילת הביצוע לסונו** לפי המבנה של שבזי: שורת הסגנון, והבלוק המלא לשדה Lyrics.
+
+**ובסוף, שאלה אחת:** "המגילה בנויה לפי שבזי. לנסות לפתוח בפזמון, או בבית גבוה? ולשיר בקול אישה או גבר?" אם הכותב בוחר חלופה, בונים מחדש רק את המגילה, בלי לקרוא את השיר שוב.
 
 פתח במשפט אחד שאומר מה השיר עושה. אל תפתח במחמאה.
