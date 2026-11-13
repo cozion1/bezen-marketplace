@@ -1,0 +1,7 @@
+{
+  "name": "bezen-balance",
+  "description": "The BEZEN balance engine: any strength or trait in three states, deficient, balanced and excessive, with thinking, feelings, body, behavior and the sentence a person says in each, where the line is crossed, and one question that opens the conversation.",
+  "version": "1.0.0",
+  "author": { "name": "Cozio Cohen" },
+  "keywords": ["hebrew", "strengths", "education", "coaching", "character"]
+}

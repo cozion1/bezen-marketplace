@@ -150,6 +150,22 @@
         "lead-scoring"
       ],
       "source": "./plugins/bezen-leads"
+    },
+    {
+      "name": "bezen-balance",
+      "description": "The BEZEN balance engine: any strength or trait in three states, deficient, balanced and excessive, where the line is crossed, and one question that opens the conversation.",
+      "author": {
+        "name": "Cozio Cohen"
+      },
+      "category": "productivity",
+      "keywords": [
+        "hebrew",
+        "strengths",
+        "education",
+        "coaching",
+        "character"
+      ],
+      "source": "./plugins/bezen-balance"
     }
   ]
 }
