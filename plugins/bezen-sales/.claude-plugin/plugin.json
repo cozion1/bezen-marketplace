@@ -1,0 +1,7 @@
+{
+  "name": "bezen-sales",
+  "description": "Sales practice that does not give in after one good line: a briefing before the call (what the customer is really protecting), a simulated customer who holds the objection and hides the real one, and a debrief that shows where the rep missed it.",
+  "version": "1.0.0",
+  "author": { "name": "Cozio Cohen" },
+  "keywords": ["hebrew", "sales", "training", "roleplay", "objections"]
+}

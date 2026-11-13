@@ -118,6 +118,22 @@
         "de-escalation"
       ],
       "source": "./plugins/bezen-support"
+    },
+    {
+      "name": "bezen-sales",
+      "description": "Sales practice that does not give in after one good line: briefing before the call, a simulated customer who holds the objection and hides the real one, and an honest debrief.",
+      "author": {
+        "name": "Cozio Cohen"
+      },
+      "category": "productivity",
+      "keywords": [
+        "hebrew",
+        "sales",
+        "training",
+        "roleplay",
+        "objections"
+      ],
+      "source": "./plugins/bezen-sales"
     }
   ]
 }
