@@ -102,6 +102,22 @@
         "alignment"
       ],
       "source": "./plugins/bezen-ladder"
+    },
+    {
+      "name": "bezen-support",
+      "description": "Add the BEZEN layer to a customer-service chat or WhatsApp agent: read the customer's state before answering, decide when a person should take over, and write one human reply in the customer's language.",
+      "author": {
+        "name": "Cozio Cohen"
+      },
+      "category": "productivity",
+      "keywords": [
+        "hebrew",
+        "customer-service",
+        "support",
+        "chat",
+        "de-escalation"
+      ],
+      "source": "./plugins/bezen-support"
     }
   ]
 }

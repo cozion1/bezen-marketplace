@@ -1,0 +1,7 @@
+{
+  "name": "bezen-support",
+  "description": "Add the BEZEN layer to a customer-service chat or WhatsApp agent: read what is really going on with the customer before answering (frustrated, giving up, ashamed to ask, already said it), what not to do now, when a person should take over, and one human reply in the customer's language.",
+  "version": "1.0.0",
+  "author": { "name": "Cozio Cohen" },
+  "keywords": ["hebrew", "customer-service", "support", "chat", "de-escalation"]
+}
