@@ -1,6 +1,6 @@
 ---
 name: bezen-song-read
-description: Read raw song lyrics a person wrote and prepare them for composing — without rewriting them. Returns the emotional pattern, the three strongest lines quoted word for word, what to cut, a chorus built only from the writer's own lines, two sticky hooks, chords per section, and a BEZEN-method performance scroll for Suno (built on Rabbi Shalom Shabazi's tradition): the writer's lines vowelized with stress, pause and breath under each line, the voice leading and the instruments humming the chorus after it, in a default structure with two alternatives to choose from. Use when someone shares lyrics they wrote and wants feedback, help with a chorus, a melody direction, chords, or a Suno prompt — and whenever the request sounds like "improve my song", which is exactly what this skill refuses to do.
+description: Read raw song lyrics a person wrote and prepare them for composing — without rewriting them. Returns the emotional pattern, the three strongest lines quoted word for word, what to cut, a chorus built only from the writer's own lines, two sticky hooks, chords per section, and a BEZEN-method performance scroll for Suno or Google Flow Music (built on Rabbi Shalom Shabazi's tradition): the writer's lines vowelized with stress, pause and breath under each line, the voice leading and the instruments humming the chorus after it, in a default structure with two alternatives to choose from. Use when someone shares lyrics they wrote and wants feedback, help with a chorus, a melody direction, chords, or a Suno or Google Flow prompt — and whenever the request sounds like "improve my song", which is exactly what this skill refuses to do.
 ---
 
 # קריאת שיר — שכבת BEZEN
@@ -112,10 +112,22 @@ description: Read raw song lyrics a person wrote and prepare them for composing 
 
 לפני שמראים: עוברים על הבלוק ומוודאים שאחרי כל פזמון יש הפסקה כלית בצורה שלמעלה, ושכל שורה עברית שרה נמצאת במילים שלו (אפשר להעביר אותן כ-hooks ב-`draft.json` ל-verify.py).
 
+## גרסה ל-Google Flow Music (Lyria)
+
+רבים מלחינים ב-Google Flow Music, שרץ על מנוע Lyria של גוגל, ולא ב-Suno. אם הכותב עובד ב-Flow, או לא אמר במה, מכינים גם גרסה ל-Flow מאותה מגילה:
+
+- **המילים:** אותן שורות שלו, מנוקדות, באותו מבנה. אף מילה לא משתנה.
+- **תיאור הסגנון:** שורה אחת באנגלית. תמיד כולל "clear precise Hebrew diction", הביטוי ש-Flow מציית לו בעברית. אחריו: הקול (אישה או גבר), שני-שלושה כלים לכל היותר, והאווירה.
+- **מה שבסונו כתוב בתגיות** (הפסקה כלית אחרי הפזמון, פתיחה חופשית, "never belting") נכתב ב-Flow כמשפט רגיל בתוך תיאור הסגנון, למשל: "after each chorus the guitar plays the chorus melody with no vocals; the voice always leads, never shouting".
+- **שלושה צבעים שנבדקו ב-Flow ועבדו טוב.** מציעים לכותב לבחור אחד, או להתחיל מהם:
+  1. שורשי, תימני-ישראלי: `Israeli Yemenite roots music, male lead vocal with clear precise Hebrew diction, tin drum Pah percussion, acoustic rhythm guitar, warm bass, traditional Israeli Mediterranean fusion, heartfelt devotional song`
+  2. בלדה אקוסטית: `Nostalgic Israeli autumn ballad, deep warm male lead singer, clear Hebrew diction, acoustic guitar, soft cello, gentle percussion, emotional storytelling voice`
+  3. סופרן אקוסטי: `High soprano female singer, acoustic indie folk ballad, clear Hebrew vocal delivery, warm acoustic guitar, emotional melodic chorus`
+
 ## הפלט לכותב
 
-מסמך קריא בעברית, לא JSON. לפי הסדר: הדפוס, המסלול, שלוש השורות החזקות עם הנימוק, מה להוריד, הפזמון, התיקונים, המוזיקה, האקורדים לכל חלק, שתי אפשרויות הפזמון שיידבק, ולבסוף **מגילת הביצוע לסונו** בשיטת BEZEN: שורת הסגנון, והבלוק המלא לשדה Lyrics.
+מסמך קריא בעברית, לא JSON. לפי הסדר: הדפוס, המסלול, שלוש השורות החזקות עם הנימוק, מה להוריד, הפזמון, התיקונים, המוזיקה, האקורדים לכל חלק, שתי אפשרויות הפזמון שיידבק, ולבסוף **מגילת הביצוע לסונו** בשיטת BEZEN: שורת הסגנון, והבלוק המלא לשדה Lyrics. אם הכותב עובד ב-Google Flow, או לא אמר במה, מוסיפים אחריה את **הגרסה ל-Flow**: המילים ותיאור הסגנון.
 
-**ובסוף, שאלה אחת:** "המגילה בנויה בשיטת BEZEN, עם פתיחה חופשית. לנסות לפתוח בפזמון גבוה, או בבית גבוה? לשיר בקול אישה או גבר? ולהשוואה, להכין גם גרסה בלי השיטה?" אם הכותב בוחר חלופה, בונים מחדש רק את המגילה, בלי לקרוא את השיר שוב.
+**ובסוף, שאלה אחת:** "המגילה בנויה בשיטת BEZEN, עם פתיחה חופשית. לנסות לפתוח בפזמון גבוה, או בבית גבוה? לשיר בקול אישה או גבר? להכין ל-Suno או ל-Google Flow? ולהשוואה, להכין גם גרסה בלי השיטה?" אם הכותב בוחר חלופה, בונים מחדש רק את המגילה, בלי לקרוא את השיר שוב.
 
 פתח במשפט אחד שאומר מה השיר עושה. אל תפתח במחמאה.
