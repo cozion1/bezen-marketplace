@@ -1,0 +1,7 @@
+{
+  "name": "bezen-leads",
+  "description": "Sort leads, new or years old, into hot (call today), warm (a few days) or cold (not now), with the reason, what is really bothering each person, and the right first message.",
+  "version": "1.0.0",
+  "author": { "name": "Cozio Cohen" },
+  "keywords": ["hebrew", "sales", "leads", "crm", "lead-scoring"]
+}

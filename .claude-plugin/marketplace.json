@@ -134,6 +134,22 @@
         "objections"
       ],
       "source": "./plugins/bezen-sales"
+    },
+    {
+      "name": "bezen-leads",
+      "description": "Sort leads, new or years old, into hot, warm or cold, with the reason, what is really bothering each person, and the right first message.",
+      "author": {
+        "name": "Cozio Cohen"
+      },
+      "category": "productivity",
+      "keywords": [
+        "hebrew",
+        "sales",
+        "leads",
+        "crm",
+        "lead-scoring"
+      ],
+      "source": "./plugins/bezen-leads"
     }
   ]
 }
